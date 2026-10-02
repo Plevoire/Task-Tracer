@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="tracker">
+    <header>
+      <p class="eyebrow">MY FIRST PRACTICE PROJECT</p>
+      <h1>Task Tracker</h1>
+      <p class="intro">One small task at a time.</p>
+    </header>
+
+    <form id="task-form" novalidate>
+      <label for="task-title">Task title</label>
+      <div class="input-row">
+        <input id="task-title" name="title" type="text" placeholder="e.g. Practice JavaScript" autocomplete="off" aria-describedby="form-message">
+        <button type="submit">Add task</button>
+      </div>
+      <div class="task-options">
+        <div class="category-field">
+          <label for="task-category">Category</label>
+          <select id="task-category" aria-describedby="form-message"></select>
+        </div>
+        <div class="category-field">
+          <label for="task-priority">Priority</label>
+          <select id="task-priority" aria-describedby="form-message"></select>
+        </div>
+        <div class="category-field">
+          <label for="task-due-date">Due date, optional</label>
+          <input id="task-due-date" name="due-date" type="date" min="0001-01-01" max="9999-12-31" aria-describedby="form-message">
+        </div>
+      </div>
+      <p id="form-message" class="message" role="status"></p>
+    </form>
+
+    <section aria-labelledby="list-heading">
+      <div class="list-header">
+        <h2 id="list-heading">Your tasks</h2>
+        <p id="task-count" aria-live="polite">0 of 0 completed</p>
+      </div>
+      <div class="filters">
+        <div>
+          <label for="status-filter">Status</label>
+          <select id="status-filter">
+            <option value="all">All tasks</option>
+            <option value="incomplete">Incomplete</option>
+            <option value="completed">Completed</option>
+          </select>
+        </div>
+        <div>
+          <label for="category-filter">Category filter</label>
+          <select id="category-filter"></select>
+        </div>
+      </div>
+      <p id="view-message" class="message" role="status"></p>
+      <ul id="task-list"></ul>
+      <p id="empty-message" class="empty">No tasks yet. Add a sample task to get started.</p>
+    </section>
+
+    <section class="category-creator" aria-labelledby="category-heading">
+      <h2 id="category-heading">Create a category</h2>
+      <p class="message">Add your own category, then choose it when adding or editing tasks.</p>
+      <form id="category-form" novalidate>
+        <label for="category-name">Category name</label>
+        <div class="input-row">
+          <input id="category-name" name="category" type="text" placeholder="e.g. BSIT" autocomplete="off" aria-describedby="category-message">
+          <button type="submit">Add category</button>
+        </div>
+        <p id="category-message" class="message" role="status"></p>
+      </form>
+    </section>
+
+    <footer>
+      <p>Practice with sample tasks only.</p>
+      <p id="storage-message" class="message" role="status">Saved in this browser. Clearing browser data removes saved tasks.</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,83 @@
+:root {
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #24332d;
+  background: #f2f5f1;
+  line-height: 1.5;
+}
+
+* { box-sizing: border-box; }
+
+body { margin: 0; padding: 48px 20px; }
+
+.tracker {
+  max-width: 660px;
+  margin: 0 auto;
+  padding: 36px;
+  background: #fff;
+  border: 1px solid #dce4dd;
+  border-radius: 20px;
+  box-shadow: 0 12px 36px #24332d0a;
+}
+
+.eyebrow { color: #48705a; font-size: .75rem; font-weight: 700; letter-spacing: .12em; }
+h1 { font-size: 2.3rem; letter-spacing: -.04em; margin: 8px 0; }
+.intro { color: #596a60; margin: 0 0 32px; }
+label { font-weight: 600; }
+.input-row { display: flex; gap: 10px; margin-top: 8px; }
+
+input[type="text"] {
+  flex: 1;
+  min-width: 0;
+  border: 1px solid #aebdb2;
+  border-radius: 9px;
+  padding: 12px;
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 9px;
+  padding: 12px 18px;
+  background: #286344;
+  color: #fff;
+  font: inherit;
+  font-weight: 600;
+}
+
+button:hover { background: #1c4a31; }
+:focus-visible { outline: 3px solid #1b7156; outline-offset: 3px; }
+button:disabled, input:disabled { cursor: not-allowed; opacity: .65; }
+.message { font-size: .85rem; color: #596a60; }
+#form-message { min-height: 1.5em; margin: 8px 0 20px; }
+.error { color: #a12a24; }
+.list-header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+h2 { font-size: 1.15rem; margin: 0; }
+#task-count { font-size: .8rem; color: #596a60; }
+ul { list-style: none; padding: 0; margin: 8px 0; }
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 0;
+  border-bottom: 1px solid #e5ebe6;
+}
+
+.task label { display: flex; align-items: center; gap: 12px; flex: 1; min-width: 0; cursor: pointer; font-weight: 400; }
+.task input { width: 20px; height: 20px; flex-shrink: 0; accent-color: #286344; }
+.task span { overflow-wrap: anywhere; }
+.task.completed span { text-decoration: line-through; color: #647568; }
+.delete-button { color: #9a2924; background: #fff0ee; font-size: .85rem; padding: 9px 12px; }
+.delete-button:hover { background: #ffe1dd; }
+.empty { padding: 26px 16px; background: #f5f8f4; border-radius: 10px; color: #596a60; text-align: center; }
+[hidden] { display: none !important; }
+footer { margin-top: 30px; padding-top: 16px; border-top: 1px solid #e5ebe6; }
+footer p { margin: 4px 0; font-size: .8rem; color: #596a60; }
+
+@media (max-width: 480px) {
+  body { padding: 20px 12px; }
+  .tracker { padding: 24px 18px; }
+  .input-row { flex-direction: column; }
+  .list-header { flex-wrap: wrap; gap: 0; }
+}

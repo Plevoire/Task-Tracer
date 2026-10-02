@@ -1,0 +1,281 @@
+{
+  "originalDirectories": [
+    "baselines",
+    "evidence",
+    "tests",
+    "baselines/m1",
+    "baselines/m2",
+    "baselines/m3",
+    "baselines/m1/tests",
+    "baselines/m2/tests",
+    "baselines/m3/tests"
+  ],
+  "files": [
+    {
+      "currentPath": "AGENTS.md",
+      "originalPath": "AGENTS.md",
+      "originalSha256": "efa78a8b450c3bb9b03d0c120ea99276c595eb581cc11a0f5609d5a5b6ffcfc6",
+      "originalBytes": 948,
+      "currentSha256": "2a6f30f16955b1cd006cd11dd6991bbaebb541cc6831e2c84b8fe7e370cd5c9c",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "app.js",
+      "originalPath": "app.js",
+      "originalSha256": "24abf7ce2153d2e3c246647a03aa41b828dff3bdeaa3521778ab377f30cefdba",
+      "originalBytes": 16473,
+      "currentSha256": "24abf7ce2153d2e3c246647a03aa41b828dff3bdeaa3521778ab377f30cefdba",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "checkpoint.md",
+      "originalPath": "checkpoint.md",
+      "originalSha256": "00edcfaee4158625b4cb625dead1919f474cc33bdf1eb4efdf7f20c4836a44bc",
+      "originalBytes": 4136,
+      "currentSha256": "a4c8436de2521308ee0ce32a8447ad759087a99c4cf754f0ec429e8c14418ff1",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "index.html",
+      "originalPath": "index.html",
+      "originalSha256": "5ef41a5536cc3c57871e06c4f747c41a0db79e89ee553e9a1574cf18aed606c1",
+      "originalBytes": 3307,
+      "currentSha256": "5ef41a5536cc3c57871e06c4f747c41a0db79e89ee553e9a1574cf18aed606c1",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "README.md",
+      "originalPath": "README.md",
+      "originalSha256": "c377bcb9928ededf5308b8821f728734e3f8bf9aad6c2db228cc44899e7e8727",
+      "originalBytes": 5711,
+      "currentSha256": "8b1942d122588e3acdba050e2f571be4e4cfa0389576dc8169ac070975c8feeb",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "docs/milestones/m2/run-packet.md",
+      "originalPath": "run-packet-m2.md",
+      "originalSha256": "db708bb9f7e24f308231819d47f523d94ec870c73197b86600e4725129b9a640",
+      "originalBytes": 4249,
+      "currentSha256": "0df15a2f1f4a193b206954d3e84ce13ba724acd6fbedc852f9b76faf3872c454",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "docs/milestones/m3/run-packet.md",
+      "originalPath": "run-packet-m3.md",
+      "originalSha256": "48daf488672050cafac9022afe48b2870c3d23cbcb5cd5d6942c048d398123e8",
+      "originalBytes": 4255,
+      "currentSha256": "c773e707fac09d40abc4cb4ebe85d8b275d76db0bcf87274ae7e33dd0c279c68",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "docs/milestones/m4/run-packet.md",
+      "originalPath": "run-packet-m4.md",
+      "originalSha256": "cbd852a493514599c5b2cabd553d4385d9be98ddef8279e45269175ddaca4b22",
+      "originalBytes": 3702,
+      "currentSha256": "41895142ba6969eb02c42e5996da10debff3e4f53c75adaca75ae06d9d7e4d95",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "docs/milestones/m1/run-packet.md",
+      "originalPath": "run-packet.md",
+      "originalSha256": "c8d0734ab8202f3dde734d915be96034451e771538ad07563de5c15dda1ad6b8",
+      "originalBytes": 7927,
+      "currentSha256": "7b5ee32a6f7576bae682ad007afd2e3681836f5b06dad9609ce2c19b2fd540f9",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "state.md",
+      "originalPath": "state.md",
+      "originalSha256": "3befc0b75e4b49031053ae16b1ad7341b704b49b6cc1b6c8773dd4cc1d1ee03b",
+      "originalBytes": 5352,
+      "currentSha256": "7eae12d06f4a1e26419c18658752082f72fde213428f1c20613e342cde8e2405",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "styles.css",
+      "originalPath": "styles.css",
+      "originalSha256": "170de2dcd15fb3c8d57fa6578016e7c53e898e37e2414a23c0f00ff36fd4b179",
+      "originalBytes": 3979,
+      "currentSha256": "170de2dcd15fb3c8d57fa6578016e7c53e898e37e2414a23c0f00ff36fd4b179",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "docs/milestones/m1/baseline/app.js",
+      "originalPath": "baselines/m1/app.js",
+      "originalSha256": "3d1706839dac9d570cc437d86f05d06581de611d4dcb7bb4be5dcd27cbe380d2",
+      "originalBytes": 4539,
+      "currentSha256": "3d1706839dac9d570cc437d86f05d06581de611d4dcb7bb4be5dcd27cbe380d2",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "docs/milestones/m1/baseline/index.html",
+      "originalPath": "baselines/m1/index.html",
+      "originalSha256": "4fc857cfb94575f2fc5bb6085f552e5292a5cd7467cd7b97935dfa826069b6f4",
+      "originalBytes": 1425,
+      "currentSha256": "4fc857cfb94575f2fc5bb6085f552e5292a5cd7467cd7b97935dfa826069b6f4",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "docs/milestones/m1/baseline/README.md",
+      "originalPath": "baselines/m1/README.md",
+      "originalSha256": "a8a468e6137a0f7b43d58ba71c4391f52377d757a30c4cf8a4e11fa15cbc84f1",
+      "originalBytes": 2037,
+      "currentSha256": "96b26b659bcbd3eaed2815fc8dd52ac3885779607f461a5c1cae2923bddacd7f",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "docs/milestones/m1/baseline/styles.css",
+      "originalPath": "baselines/m1/styles.css",
+      "originalSha256": "83847b8ed26dd233cd76514423668353acbe1e9b2e8a0668ebb64114121f573e",
+      "originalBytes": 2546,
+      "currentSha256": "83847b8ed26dd233cd76514423668353acbe1e9b2e8a0668ebb64114121f573e",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "docs/milestones/m1/baseline/tests/app.test.cjs",
+      "originalPath": "baselines/m1/tests/app.test.cjs",
+      "originalSha256": "990e1bc12699f10fe6f05cd96f6d16c48978173a294e750ac14eed325e35b410",
+      "originalBytes": 6599,
+      "currentSha256": "990e1bc12699f10fe6f05cd96f6d16c48978173a294e750ac14eed325e35b410",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "docs/milestones/m2/baseline/app.js",
+      "originalPath": "baselines/m2/app.js",
+      "originalSha256": "83a28011b40f32376f024609f446a2549864ce8aa38fdd19dbc601f7d7777ca6",
+      "originalBytes": 10458,
+      "currentSha256": "83a28011b40f32376f024609f446a2549864ce8aa38fdd19dbc601f7d7777ca6",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "docs/milestones/m2/baseline/index.html",
+      "originalPath": "baselines/m2/index.html",
+      "originalSha256": "c92ed041eb9161ccbaa78bf5e1ecc944bee1caa2a982b8642556f155af8ac9e6",
+      "originalBytes": 2120,
+      "currentSha256": "c92ed041eb9161ccbaa78bf5e1ecc944bee1caa2a982b8642556f155af8ac9e6",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "docs/milestones/m2/baseline/README.md",
+      "originalPath": "baselines/m2/README.md",
+      "originalSha256": "9e517243825170ca9f1708bd96a16456723c475020fcd54d2c28896d6424399d",
+      "originalBytes": 3530,
+      "currentSha256": "26177f3f5fab0c1efdd6b98b7a9126c3372f817ed8a84ac56db6441fc5b11d7c",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "docs/milestones/m2/baseline/styles.css",
+      "originalPath": "baselines/m2/styles.css",
+      "originalSha256": "10df9144c663896d322c2ed40093714c4c1271fa71ce838f887d03f7f68ced24",
+      "originalBytes": 3420,
+      "currentSha256": "10df9144c663896d322c2ed40093714c4c1271fa71ce838f887d03f7f68ced24",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "docs/milestones/m2/baseline/tests/app.test.cjs",
+      "originalPath": "baselines/m2/tests/app.test.cjs",
+      "originalSha256": "7aab202a891506f7f1d6058e51d50d3387544e33688ea466553863e9cd1747a3",
+      "originalBytes": 15932,
+      "currentSha256": "7aab202a891506f7f1d6058e51d50d3387544e33688ea466553863e9cd1747a3",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "docs/milestones/m3/baseline/app.js",
+      "originalPath": "baselines/m3/app.js",
+      "originalSha256": "f45517dd56fcc8e2ddcdb51192a9a718a31becfadaebadff12eb46deadc48291",
+      "originalBytes": 12962,
+      "currentSha256": "f45517dd56fcc8e2ddcdb51192a9a718a31becfadaebadff12eb46deadc48291",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "docs/milestones/m3/baseline/index.html",
+      "originalPath": "baselines/m3/index.html",
+      "originalSha256": "7dd40bf3cbce0d9d338dcb5b5fa3303adc716d83001a29c827ef64a11dc56892",
+      "originalBytes": 2789,
+      "currentSha256": "7dd40bf3cbce0d9d338dcb5b5fa3303adc716d83001a29c827ef64a11dc56892",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "docs/milestones/m3/baseline/README.md",
+      "originalPath": "baselines/m3/README.md",
+      "originalSha256": "2e32c80955618c96210be3294d870a05d97931a7f8adaf218f80f41566d3413a",
+      "originalBytes": 4582,
+      "currentSha256": "dc94ef7fdedc9ffccf6813998824f69803e0f28fe3dbd34ab12e2af57778245f",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "docs/milestones/m3/baseline/styles.css",
+      "originalPath": "baselines/m3/styles.css",
+      "originalSha256": "a76a588603c7d14823f7a598f6b47defce6cc372d4b689d89de94f67c6f604ac",
+      "originalBytes": 3568,
+      "currentSha256": "a76a588603c7d14823f7a598f6b47defce6cc372d4b689d89de94f67c6f604ac",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "docs/milestones/m3/baseline/tests/app.test.cjs",
+      "originalPath": "baselines/m3/tests/app.test.cjs",
+      "originalSha256": "35b5774ae8deb20b6b7b30368764e2d926fefd4558fa838c3ee19bc570cafcd0",
+      "originalBytes": 23084,
+      "currentSha256": "35b5774ae8deb20b6b7b30368764e2d926fefd4558fa838c3ee19bc570cafcd0",
+      "change": "bytes unchanged"
+    },
+    {
+      "currentPath": "docs/milestones/m2/evidence/verification.md",
+      "originalPath": "evidence/verification-m2.md",
+      "originalSha256": "35329d5ce8a9ee783eedd07c355853eed6316a6aa5ad7c2929af22e5974f0f19",
+      "originalBytes": 6157,
+      "currentSha256": "6792bd6c0cd439994c7f98dc062002358bcfe2b34b29b210e67af8a5e873d9c5",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "docs/milestones/m3/evidence/verification.md",
+      "originalPath": "evidence/verification-m3.md",
+      "originalSha256": "ca1889a0c706c39326e67d885ed8cefe59dcbe1425dc2dbc74b42ebaf94df00a",
+      "originalBytes": 5266,
+      "currentSha256": "777ed7888bf56c47bb4f1f59791538a5854d99614243a0b56c7ad6f07203e586",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "docs/milestones/m4/evidence/verification.md",
+      "originalPath": "evidence/verification-m4.md",
+      "originalSha256": "7e18fadd6151fcd73ae4f984ff3a9a5fc1f014486f8d4cf662dcb4eebf5435ad",
+      "originalBytes": 5950,
+      "currentSha256": "e25db5951b442c3621266696a01427f09939a9e594e1c6fc8bea7352a9cc208f",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "docs/milestones/m1/evidence/verification.md",
+      "originalPath": "evidence/verification.md",
+      "originalSha256": "73f64151ce3f6b0ea0a376f844d3b47428a5e1283b8954caffabc639b721279c",
+      "originalBytes": 5194,
+      "currentSha256": "0b40b0c7f515f6cf74a4c638dbdaf4aebf9781cfe0751ac01689e314e811bca7",
+      "change": "documentation references/context updated"
+    },
+    {
+      "currentPath": "tests/app.test.cjs",
+      "originalPath": "tests/app.test.cjs",
+      "originalSha256": "8757b67254ceb7054d6236ed62c194de570dc3d473998fbbdbb688dbae49aaef",
+      "originalBytes": 31402,
+      "currentSha256": "8757b67254ceb7054d6236ed62c194de570dc3d473998fbbdbb688dbae49aaef",
+      "change": "bytes unchanged"
+    }
+  ],
+  "purpose": "Owner-authorized documentation organization only; one writer, no deletion/push/publication",
+  "date": "2026-10-02",
+  "verification": {
+    "date": "2026-10-02",
+    "originalFilesAccountedFor": 31,
+    "unchangedAppAndTestFiles": 16,
+    "originalDirectoriesPreservedOrRelocated": 9,
+    "resolvingLocalMarkdownLinks": 52,
+    "validDocumentedNodeScriptPaths": 46,
+    "tests": {
+      "current": 33,
+      "m1": 6,
+      "m2": 17,
+      "m3": 25
+    },
+    "nativeBrowser": "not verified; prior file URL policy boundary unchanged",
+    "deletions": 0
+  }
+}

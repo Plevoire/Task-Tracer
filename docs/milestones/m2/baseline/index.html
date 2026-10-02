@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Task Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main class="tracker">
+    <header>
+      <p class="eyebrow">MY FIRST PRACTICE PROJECT</p>
+      <h1>Task Tracker</h1>
+      <p class="intro">One small task at a time.</p>
+    </header>
+
+    <form id="task-form" novalidate>
+      <label for="task-title">Task title</label>
+      <div class="input-row">
+        <input id="task-title" name="title" type="text" placeholder="e.g. Practice JavaScript" autocomplete="off" aria-describedby="form-message">
+        <button type="submit">Add task</button>
+      </div>
+      <div class="category-field">
+        <label for="task-category">Category</label>
+        <select id="task-category"></select>
+      </div>
+      <p id="form-message" class="message" role="status"></p>
+    </form>
+
+    <section aria-labelledby="list-heading">
+      <div class="list-header">
+        <h2 id="list-heading">Your tasks</h2>
+        <p id="task-count" aria-live="polite">0 of 0 completed</p>
+      </div>
+      <div class="filters">
+        <div>
+          <label for="status-filter">Status</label>
+          <select id="status-filter">
+            <option value="all">All tasks</option>
+            <option value="incomplete">Incomplete</option>
+            <option value="completed">Completed</option>
+          </select>
+        </div>
+        <div>
+          <label for="category-filter">Category filter</label>
+          <select id="category-filter"></select>
+        </div>
+      </div>
+      <p id="view-message" class="message" role="status"></p>
+      <ul id="task-list"></ul>
+      <p id="empty-message" class="empty">No tasks yet. Add a sample task to get started.</p>
+    </section>
+
+    <footer>
+      <p>Practice with sample tasks only.</p>
+      <p id="storage-message" class="message" role="status">Saved in this browser. Clearing browser data removes saved tasks.</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,25 @@
+# Credentials and local files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Dependencies and generated output
+node_modules/
+dist/
+build/
+coverage/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor/session settings
+.vscode/
+.idea/
